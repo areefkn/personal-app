@@ -10,7 +10,7 @@ export default function NavbarComponents() {
     <nav className="bg-indigo-50 p-4 shadow-md rounded-3xl mt-2 sticky top-1 z-50 ">
       <div className="container mx-auto flex justify-between items-center">
         <div>
-          <h1 className="text-3xl font-bold text-indigo-700">AreefKn.</h1>
+          <h1 className="text-3xl font-bold font-sans text-indigo-700">AreefKn.</h1>
         </div>
         
         {/* Desktop Navigation */}
