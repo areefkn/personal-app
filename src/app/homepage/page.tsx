@@ -1,7 +1,7 @@
 import React from 'react'
-import About from '../../pages/home/about'
-import MySkills from '../../pages/home/skills/mySkills'
-import HeroSection from '../../pages/home/sections/HeroSection'
+import About from '../../pages/home-page/about'
+import MySkills from '../../pages/home-page/skills/mySkills'
+import HeroSection from '../../pages/home-page/sections/HeroSection'
 
 export default function HomePage() {
 return (

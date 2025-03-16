@@ -1,10 +1,6 @@
-import NavbarComponents from '@/Components/Navbar/NavbarComponents'
+import ContactPage from '@/pages/contact-page'
 import React from 'react'
 
-export default function ContactPage() {
-  return (
-    <>
-    <div>ContactPage</div>
-    </>
-  )
+export default function Contact() {
+  return <ContactPage/> ;
 }
