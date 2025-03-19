@@ -7,14 +7,14 @@ export default function NavbarComponents() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-indigo-50 p-4 shadow-md rounded-3xl mt-2 sticky top-1 z-50 ">
+    <nav className="bg-white p-4 shadow-md rounded-3xl sticky top-0 z-50 ">
       <div className="container mx-auto flex justify-between items-center">
         <div>
           <h1 className="text-3xl font-bold font-sans text-indigo-700">AreefKn.</h1>
         </div>
         
         {/* Desktop Navigation */}
-        <div className="hidden md:flex space-x-10 mr-[30px] text-xl">
+        <div className="hidden md:flex space-x-10 h-[50px] items-center mr-[30px] text-xl">
           <Link href="/" className="text-gray-700 hover:text-indigo-600 transition-colors duration-300">
             Home
           </Link>
@@ -27,7 +27,7 @@ export default function NavbarComponents() {
         </div>
         
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        <div className="md:hidden ">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-gray-800 focus:outline-none"
