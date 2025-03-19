@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-screen-xl mx-auto px-4`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-screen-xl mx-auto px-0 bg-white`}
       >
         <NavbarComponents/>
         {children}
