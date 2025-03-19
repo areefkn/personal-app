@@ -1,4 +1,5 @@
 "use client"
+import "@/styles/gradient.css"
 
 import React, { useState } from 'react'
 
@@ -25,7 +26,7 @@ export default function ContactPage() {
 
     return (
         <>
-        <div className="container mx-auto mt-3 p-5 min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 rounded-3xl">
+        <div className="container mx-auto mt-3 p-5 min-h-screen bg-gradient-to-r from-purple-400 via-indigo-500 to-violet-600 animate-gradient-flow rounded-3xl">
         <h1 className="text-4xl font-extrabold mb-8 text-center text-gray-800 mt-10">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
             Contact Us
